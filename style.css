@@ -1,6 +1,6 @@
 @media only screen and (max-width: 600px) {
     :root {
-      --qrCardMaxWidth: 100%;
+      --qrCardMaxWidth: 80%;      
     }
   }
   
@@ -34,7 +34,7 @@
     background-color: hsl(0, 0%, 100%);
     border-radius: var(--borderRadius);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
-    max-width: var(--qrCardMaxWidth);
+    max-width: calc(var(--qrBackground-width)-20px);
     padding: var(--qrCardPadding);
     height: auto;
 }
@@ -50,4 +50,6 @@
     font-weight: 400, 700;
     font-family: "Outfit";
     vertical-align: bottom;
+    justify-content: center;
+    align-items: center;
 }
