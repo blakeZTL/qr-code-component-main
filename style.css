@@ -1,3 +1,9 @@
+@media only screen and (max-width: 600px) {
+    :root {
+      --qrCardMaxWidth: 100%;
+    }
+  }
+  
 :root {
     --borderRadius: 30px;
     --qrCardPadding: 20px;
