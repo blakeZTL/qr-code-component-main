@@ -1,0 +1,49 @@
+:root {
+    --borderRadius: 30px;
+    --qrCardPadding: 20px;
+    --qrCardMaxWidth: 400px;
+    --qrCardMaxHeight: 400px;
+  }
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    font-family: "Outfit";
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+    width: 100%;
+    max-height: fit-content;
+    height: 100%;
+    background-color: hsl(212, 45%, 89%);
+  }
+  
+  .qrCard {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: var(--borderRadius);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    max-width: var(--qrCardMaxWidth);
+    padding: var(--qrCardPadding);    
+  }
+  
+  .qrCardImg {    
+    border-radius: calc(var(--borderRadius) / 2);
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
+
+.qrCardInfo{
+    font-size: 15px;
+    font-weight: 400,700;
+    font-family: "Outfit";    
+}
